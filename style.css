@@ -50,6 +50,9 @@ h1 {
 	left: 20%;
 	opacity: 0.5;
 	z-index: 1;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+  	grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 .jar-top {
@@ -107,4 +110,9 @@ h1 {
 	right: 90%;
 	opacity: 0.8;
 	z-index: 2;
+}
+
+#plant1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
 }
